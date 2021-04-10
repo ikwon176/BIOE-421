@@ -9,7 +9,6 @@ This project allows the use of Circuit PlayGround to indicate the status of char
 
 In terms of hardware, this project requires:
   - Adafruit Circuit PlayGround (https://learn.adafruit.com/introducing-circuit-playground/overview)
-  - Adafruit LC709203F LiPoly / LiIon Fuel Gauge and Battery Monitor (https://www.adafruit.com/product/4712)
 
 
 
