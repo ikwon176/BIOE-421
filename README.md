@@ -4,8 +4,7 @@
 #### Instructor: Jordan Miller
 #### TA: Adam Farsheed
 
-This project allows the use of Circuit PlayGround to indicate the status of charge (SOC) on a Lithium-Ion battery.
-
+This project allows the Adafruit Circuit PlayGround to encode a numeric value in Morse Code and decode Morse Code to output a numeric value.
 
 In terms of hardware, this project requires:
   - Adafruit Circuit PlayGround (https://learn.adafruit.com/introducing-circuit-playground/overview)
