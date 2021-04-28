@@ -397,7 +397,12 @@ void loop() {
     Serial.print("Character received: ");
     Serial.println(input);
     encode(); //encodes each unit separately
-    delay(3000); //wait between two numbers (3 second delay to be clear) 
+    delay(3000); //wait between two numbers (3 second delay to be clear)
+    if (input = '\n') {
+         CircuitPlayground.setPixelColor(2, 0xFF3399); //turn on neopixels
+         delay(dashtime); //on for dashtime milliseconds (long)
+         CircuitPlayground.clearPixels(); //neopixels off
+    }
   }
 //  input = '6'; //to test without two serial monitors
 //  encode();
